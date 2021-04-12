@@ -1,0 +1,96 @@
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.section-wrapper-type {
+    border: 3px solid #0f0f0f;
+    margin-left: 110px;
+    margin-right: 502px;
+    margin-bottom: 9px;
+    padding: 20px 20px 20px 20px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #00ff00;
+}
+
+.section-wrapper-block-fourth {
+    width: 100px;
+    height: 200px;
+    background-color: #00ff00;
+}
+
+.text {
+    background-color: #0000ff;
+}
+
+.section-wrapper-block {
+    float: left;
+}
+
+.section-wrapper-text-first {
+    width: 73%;
+}
+
+.type-first {
+    display: flex;
+}
+
+.type-second {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-wrapper-text-second {
+    width: 67%;
+    margin-right: 22px;
+}
+
+.section-wrapper-text-third {
+    position: relative;
+}
+
+.section-wrapper-block-third {
+    position: absolute;
+    left: 383px;
+    top: 774px;
+    z-index: 1;
+}
+
+.type-fourth {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-wrapper-text-fourth {
+    height: 19%;
+    margin-right: 23px;
+}
+
+.section-wrapper-block-fifth {
+    float: left;
+    background-color: #0000ff;
+    width: 100px;
+    height: 100px;
+}
+
+.section-wrapper-text-fifth {
+    width: 100%;
+}
+
+.type-fifth {
+    position: relative;
+}
+
+.type-fifth::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #00ff00;
+    top: 66px;
+    left: 160px;
+}
