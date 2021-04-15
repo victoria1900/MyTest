@@ -1,5 +1,5 @@
 .container {
-    width: 1024px;
+    width: 78%;
     margin: 0 auto;
 }
 
@@ -31,9 +31,6 @@
     float: left;
 }
 
-.section-wrapper-text-first {
-    width: 73%;
-}
 
 .type-first {
     display: flex;
@@ -45,18 +42,17 @@
 }
 
 .section-wrapper-text-second {
-    width: 67%;
     margin-right: 22px;
 }
 
-.section-wrapper-text-third {
+.type-third {
     position: relative;
 }
 
 .section-wrapper-block-third {
     position: absolute;
-    left: 383px;
-    top: 774px;
+    left: 153px;
+    top: 52px;
     z-index: 1;
 }
 
@@ -77,10 +73,6 @@
     height: 100px;
 }
 
-.section-wrapper-text-fifth {
-    width: 100%;
-}
-
 .type-fifth {
     position: relative;
 }
@@ -93,4 +85,12 @@
     background-color: #00ff00;
     top: 66px;
     left: 160px;
+}
+
+.section-wrapper-block-first {
+    width: 352%;
+}
+
+.section-wrapper-block-second {
+    width: 356%;
 }
