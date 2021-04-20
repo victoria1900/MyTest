@@ -182,6 +182,19 @@ body {
         display: none;
     }
 
+    .section {
+        position: relative;
+    }
+
+    .section::before {
+        content: '';
+        position: absolute;
+        border-top: 1px solid #EAEBED;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+
     .header-contacts-wraper,
     .section-wraper-list-laptop {
         display: none;
@@ -1053,10 +1066,25 @@ body {
         left: 59px;
         background-repeat: repeat;
     }
+
+    .section {
+        position: relative;
+    }
+
+    .section::before {
+        content: '';
+        position: absolute;
+        border-top: 1px solid #EAEBED;
+        width: 100%;
+        top: -4px;
+        left: 0px;
+    }
+
     .footer {
         background-color: #000;
         padding-bottom: 26px;
     }
+
     .title {
         font-family: 'FuturaNew';
         font-size: 19px;
@@ -1065,6 +1093,7 @@ body {
         text-transform: uppercase;
         color: #FFFFFF;
     }
+
     .element {
         font-family: 'FuturaNew';
         font-size: 10px;
@@ -1074,6 +1103,7 @@ body {
         color: #FFFFFF;
         text-decoration: none;
     }
+
     .footer-wraper-list-welcome__mail {
         font-family: 'FuturaNew';
         font-size: 18px;
@@ -1082,6 +1112,7 @@ body {
         font-weight: normal;
         margin: 0px;
     }
+
     .footer-developers__protected {
         font-family: 'FuturaNew';
         font-size: 12px;
@@ -1089,6 +1120,7 @@ body {
         color: #FFFFFF;
         padding-right: 400px;
     }
+
     .footer-developers__politics {
         font-family: 'FuturaNew';
         font-size: 12px;
@@ -1098,9 +1130,11 @@ body {
         color: #FFFFFF;
         padding-left: 425px;
     }
+
     .footer-developers {
         padding-top: 111px;
     }
+
     .footer-wraper-list {
         list-style: none;
         margin: 0px;
@@ -1108,6 +1142,7 @@ body {
         flex-wrap: wrap;
         display: flex;
     }
+
     .footer-wraper-list-furniture,
     .footer-wraper-list-light,
     .footer-wraper-list-decor,
@@ -1117,9 +1152,11 @@ body {
     .footer-wraper-list-other {
         display: grid;
     }
+
     .footer-wraper-list-welcome__insta {
         position: relative;
     }
+
     .footer-wraper-list-welcome__insta::before {
         content: '';
         position: absolute;
