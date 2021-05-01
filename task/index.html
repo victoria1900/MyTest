@@ -11,6 +11,8 @@
     <link rel="preload" href="fonts/FuturaNew.woff2" as="font">
     <link rel="preload" href="fonts/Georgia.woff2" as="font">
     <link rel="preload" href="fonts/GothamBold.woff2" as="font">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script charset="utf-8" src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
 </head>
 
 <body>
@@ -464,112 +466,160 @@
                     <a class="about-wraper-description-link" href="#">Подробнее о компании</a>
                 </div>
             </div>
-            <div class="about-brands-wraper">
-                <div class="about-brands container">
-                    <p class="about-brands-title">наши бренды</p>
-                    <div class="about-brands-value">
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
-                        </div>
-                        <div>
-                            <img src="img/brand.png" alt="brand">
+            <div class="about-brands-bg">
+                <div class="about-brands-wraper">
+                    <div class="about-brands container">
+                        <p class="about-brands-title">наши бренды</p>
+                        <div class="about-brands-value">
+                            <div class="about-brands-value-wraper-first">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                            </div>
+                            <div class="about-brands-value-wraper-second">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                            </div>
+                            <div class="about-brands-value-wraper-third">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                            </div>
+                            <div class="about-brands-value-wraper-fourth">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                            </div>
+                            <div class="about-brands-value-wraper-fifth">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                                <img src="img/brand.png" alt="brand">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
 
+            <div class="swiper">
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper container">
+                        <div class="swiper-slide slide">
+                            <div class="swiper-slide-item">
+                                <p class="swiper-slide-item-subtitle">Дизайнеры интерьера о нас.</p>
+                                <a class="swiper-slide-item-link" href="#">Чем мы можем быть полезны дизайнерам</a>
+                            </div>
+                            <div class="swiper-slide-wraper">
+
+                                <div class="swiper-slide-wraper-item">
+                                    <p class="swiper-slide-wraper-item__name">Елена Малышева</p>
+                                    <p class="swiper-slide-wraper-item__subtitle">Архитектор, дизайнер, выпускник Ba
+                                        London | Москва</p>
+                                    <a class="swiper-slide-wraper-item__link" href="#">www.website.ru</a>
+                                    <p class="swiper-slide-wraper-item__text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                                </div>
+                                <div class="swiper-slide-second">
+                                    <p class="swiper-slide-second__name">Елена Малышева</p>
+                                    <p class="swiper-slide-second__subtitle">Архитектор, дизайнер, выпускник Ba
+                                        London | Москва</p>
+                                    <a class="swiper-slide-second__link" href="#">www.website.ru</a>
+                                    <p class="swiper-slide-second__text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"></div>
+                    </div>
+
+                    <div class="swiper-navigation">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscription">
+                <img class="subscription-img" src="img/screenshot.png" alt="screen">
+                <div class="subscription-tag">
+                    <div class="subscription-tag-wraper">
+                        <p class="subscription-tag__title">подпишись на тег</p>
+                        <p class="subscription-tag__subtitle">#riter</p>
+                    </div>
+                    <div class="subscription-tag-button">
+                        <a class="subscription-tag__link" href="#">Подписаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-all container">
+                    <div class="blog-wraper">
+                        <p class="blog-wraper__title">Блог про дизайнерскую мебель</p>
+                        <a class="blog-wraper__link" href="#">Все новости</a>
+                    </div>
+                    <div class="blog-wraper-all">
+                        <div class="blog-wraper-all__item">
+                            <img class="blog-wraper-all__img" src="img/interier.png" alt="design">
+                            <p class="blog-wraper-all__time">12/08/18</p>
+                            <p class="blog-wraper-all__title">Название статьи</p>
+                            <p class="blog-wraper-all__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do
+                                eiusmod tempor incididunt ut
+                                labore et</p>
+                            <a class="blog-wraper-all__read" href="#">Читать далее</a>
+                        </div>
+                        <div class="blog-wraper-all__item-first">
+                            <img class="blog-wraper-all__img" src="img/interier.png" alt="design">
+                            <p class="blog-wraper-all__time">12/08/18</p>
+                            <p class="blog-wraper-all__title">Название статьи</p>
+                            <p class="blog-wraper-all__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do
+                                eiusmod tempor incididunt ut
+                                labore et</p>
+                            <a class="blog-wraper-all__read" href="#">Читать далее</a>
+                        </div>
+                        <div class="blog-wraper-all__item-second">
+                            <img class="blog-wraper-all__img" src="img/interier.png" alt="design">
+                            <p class="blog-wraper-all__time">12/08/18</p>
+                            <p class="blog-wraper-all__title">Название статьи</p>
+                            <p class="blog-wraper-all__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do
+                                eiusmod tempor incididunt ut
+                                labore et</p>
+                            <a class="blog-wraper-all__read" href="#">Читать далее</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+
+
         </section>
-
-
-
-
-
-
     </main>
     <footer class="footer">
         <div class="footer-wraper container">
@@ -635,6 +685,11 @@
             <a class="footer-developers__politics" href="#">Политика конфиденциальности</a>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/location.js"></script>
+    <div id="YMapsID" class="YMaps YMaps-cursor-grab"></div>
+
 </body>
 
 </html>
