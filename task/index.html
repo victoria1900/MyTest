@@ -11,8 +11,9 @@
     <link rel="preload" href="fonts/FuturaNew.woff2" as="font">
     <link rel="preload" href="fonts/Georgia.woff2" as="font">
     <link rel="preload" href="fonts/GothamBold.woff2" as="font">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script charset="utf-8" src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+    <script charset="utf-8" src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript">
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -41,7 +42,6 @@
                                 <a class="header-wraper-nav__item-fourth-pay item" href="#">Оплата и возврат</a>
                             </li>
                         </ul>
-
                         <ul class="header-wraper-nav__list-tablet">
                             <li class="header-wraper-nav__item">
                                 <a class="header-wraper-nav__item-about item" href="#">о компании</a>
@@ -57,14 +57,12 @@
                             </li>
                             <li class="header-wraper-nav__item-first">
                                 <a class="header-wraper-nav__item-first-contacts item" href="">контакты</a>
-
                             </li>
                         </ul>
                     </div>
                     <button class="header-wraper-nav__button-laptop" type="button"></button>
                 </nav>
             </div>
-
         </div>
         <div class="header-contacts container">
             <div class="header-contacts-phone">
@@ -166,42 +164,26 @@
                     </li>
                 </ul>
             </div>
-
-
-
-            <div class="section-catalog slider">
-
-                <div class="section-catalog-wraper slides container">
-                    <div class="section-catalog-wraper__slide" id="slide-1">
+            <div class="section-catalog mySwiper">
+                <div class="section-catalog-wraper swiper-wrapper container">
+                    <div class="section-catalog-wraper__slide swiper-slide" id="slide-1">
                         <h1 class="section-catalog-wraper__title">Офисная мебель</h1>
                         <p class="section-catalog-wraper__subtitle">Новый каталог 2018-2019</p>
                         <a class="section-catalog-wraper__link" href="#">Подробнее о каталоге</a>
                     </div>
-                    <div id="slide-2">
-
+                    <div class="swiper-slide" id="slide-2">
                     </div>
-                    <div id="slide-3">
-
+                    <div class="swiper-slide" id="slide-3">
                     </div>
-                    <div id="slide-4">
-
+                    <div class="swiper-slide" id="slide-4">
                     </div>
-                    <div id="slide-5">
-
+                    <div class="swiper-slide" id="slide-5">
                     </div>
                 </div>
-                <div class="section-catalog-buttons container">
-                    <a class="section-catalog__slide-first" href="#slide-1"></a>
-                    <a class="section-catalog__slide-second" href="#slide-2"></a>
-                    <a class="section-catalog__slide-third" href="#slide-3"></a>
-                    <a class="section-catalog__slide-fourth" href="#slide-4"></a>
-                    <a class="section-catalog__slide-fifth" href="#slide-5"></a>
-                </div>
+                <div class="swiper-pagination pagination"></div>
             </div>
         </section>
-
         <section class="section-products">
-
             <div class="section-products-wraper container">
                 <div class="section-products-wraper-delivery">
                     <p class="section-products-wraper-delivery__title feature">Быстрая доставка</p>
@@ -411,10 +393,8 @@
                             многообразие цветовой гаммы в сочетании с отличным качеством.</p>
                         <a class="section-products-list__more" href="#">Подробнее</a>
                     </div>
-
                 </div>
             </div>
-
         </section>
         <section class="about">
             <div class="about-wraper-bg">
@@ -515,10 +495,7 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="swiper">
-
                 <div class="swiper-container">
                     <div class="swiper-wrapper container">
                         <div class="swiper-slide slide">
@@ -552,7 +529,6 @@
                         </div>
                         <div class="swiper-slide"></div>
                     </div>
-
                     <div class="swiper-navigation">
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
@@ -609,16 +585,8 @@
                             <a class="blog-wraper-all__read" href="#">Читать далее</a>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
-
-
-
-
-
         </section>
     </main>
     <footer class="footer">
@@ -687,9 +655,9 @@
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
+    <script src="js/swiper-second.js"></script>
     <script src="js/location.js"></script>
     <div id="YMapsID" class="YMaps YMaps-cursor-grab"></div>
-
 </body>
 
 </html>
